@@ -2,8 +2,10 @@ package string;
 
 public class Student {
     String name;
+    int age;
 
-    public Student(String name) {
+    public Student(String name, int age) {
         this.name = name;
+        this.age = age;
     }
 }
